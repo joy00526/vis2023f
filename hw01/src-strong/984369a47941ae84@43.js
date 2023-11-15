@@ -3,13 +3,13 @@ md`# HW1 Strong baseline`
 )}
 
 function _data(__query,FileAttachment,invalidation){return(
-__query(FileAttachment("data@2.csv"),{from:{table:"data"},sort:[],slice:{to:null,from:null},filter:[],select:{columns:null}},invalidation)
+__query(FileAttachment("data@.csv"),{from:{table:"data"},sort:[],slice:{to:null,from:null},filter:[],select:{columns:null}},invalidation)
 )}
 
 async function _3(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業一",
       fill: "#164863",
@@ -23,7 +23,7 @@ Plot.plot({
 async function _4(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業二",
       fill: "#427D9D",
@@ -37,7 +37,7 @@ Plot.plot({
 async function _5(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業三",
       fill: "#9BBEC8",
@@ -51,7 +51,7 @@ Plot.plot({
 async function _6(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業三",
       fill: "#DDF2FD",
@@ -65,7 +65,7 @@ Plot.plot({
 async function _7(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業四",
       fill: "#86A789",
@@ -79,7 +79,7 @@ Plot.plot({
 async function _8(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業五",
       fill: "#B2C8BA",
@@ -93,7 +93,7 @@ Plot.plot({
 async function _9(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業六",
       fill: "#D2E3C8",
@@ -107,7 +107,7 @@ Plot.plot({
 async function _10(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業七",
       fill: "#EBF3E8",
@@ -121,7 +121,7 @@ Plot.plot({
 async function _11(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業八",
       fill: "#04364A",
@@ -135,7 +135,7 @@ Plot.plot({
 async function _12(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業九",
       fill: "#176B87",
@@ -149,7 +149,7 @@ Plot.plot({
 async function _13(Plot,FileAttachment){return(
 Plot.plot({
   marks: [
-    Plot.barY(await FileAttachment("data@2.csv").csv({ typed: "auto" }), {
+    Plot.barY(await FileAttachment("data@.csv").csv({ typed: "auto" }), {
       x: "學號",
       y: "作業十",
       fill: "#64CCC5",
