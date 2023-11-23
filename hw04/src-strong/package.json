@@ -1,0 +1,14 @@
+{
+  "name": "27215d340e3a14c4",
+  "main": "27215d340e3a14c4@23.js",
+  "version": "23.0.0",
+  "homepage": "https://observablehq.com/d/27215d340e3a14c4",
+  "author": {
+    "name": "陳柏堯's Workspace",
+    "url": "https://observablehq.com/@chen-bo-yao-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
