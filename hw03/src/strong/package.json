@@ -1,0 +1,14 @@
+{
+  "name": "2c3c8038727a0e59",
+  "main": "2c3c8038727a0e59@468.js",
+  "version": "468.0.0",
+  "homepage": "https://observablehq.com/d/2c3c8038727a0e59",
+  "author": {
+    "name": "陳柏堯",
+    "url": "https://observablehq.com/@chen-bo-yao"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
